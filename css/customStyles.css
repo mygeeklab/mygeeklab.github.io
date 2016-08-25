@@ -180,12 +180,14 @@ img.Service-icon {
 }
 
 /* Header */
+.visible-lg {
+  margin-left: 130px;
+}
 
 .profile {
   /*height: 250px;
   width: 250px;*/
   margin: 0 auto;
-  margin-left: 130px;
  /* align-items: center; */
 }
 
