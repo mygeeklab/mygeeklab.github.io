@@ -185,8 +185,8 @@ img.Service-icon {
   /*height: 250px;
   width: 250px;*/
   margin: 0 auto;
-/*  margin-left: 130px;
-  align-items: center; */
+  margin-left: 130px;
+ /* align-items: center; */
 }
 
 .header {
