@@ -69,7 +69,7 @@
         $btn.button('reset');
         return false;
       }
-      //send the feedback e-mail
+      /*send the feedback e-mail
       $.ajax({
         type: "POST",
         url: "library/sendmail.php",
@@ -97,3 +97,4 @@
     });
   });
 })();
+*/
