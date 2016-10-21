@@ -50,6 +50,10 @@ p, h3{
     right: 0;
 }
 
+.github:hover{
+     background-color: #00B2EE;
+}
+
 img.center{
     display: block;
     margin: 0 auto;
