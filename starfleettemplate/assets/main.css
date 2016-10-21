@@ -43,6 +43,13 @@ p, h3{
     font-family: 'Courgette', cursive;
 }
 
+.github{
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 img.center{
     display: block;
     margin: 0 auto;
