@@ -255,7 +255,7 @@ button:hover small {
 .hovereffect img {
   display: block;
   position: relative;
-  max-width: 20%;
+  max-width: none;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(-10px,0,0);
