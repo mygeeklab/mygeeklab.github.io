@@ -239,7 +239,7 @@ button:hover small {
   position: relative;
   text-align: center;
   cursor: default;
-  background: #4b6cb7;
+  background: transparent;
 }
 
 .hovereffect .overlay {
