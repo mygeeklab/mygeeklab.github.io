@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Tillana);
+@import url(https://fonts.googleapis.com/css?family=Yellowtail);
+
+body {
+  font-family: 'Tillana', cursive;
+  height: 100%;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 50px;
+  background-image: url("http://cdn.wallpapersafari.com/17/59/yKIpON.jpg");
+  background-repeat: no-repeat;
+}
+
+p{
+    color: deepskyblue;
+}
+
+h3{
+    font-family: 'Yellowtail', cursive;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h4 {
+    color: deepskyblue;
+  margin: 5px 20px;
+}
+
+span {
+    color: deepskyblue;
+  float: right;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+
+  border: 5px solid deepskyblue;
+  border-radius: 50px;
+}
+
+.comment-box {
+  width: 85%;
+  margin-top: 50px;
+  border-radius: 20px;
+  background: transparent;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.comment-box p {
+  margin: 0 30px 15px;
+  font-weight: 300;
+  color: deepskyblue;
+  word-wrap: break-word;
+  padding: 5px 10px;
+}
+
+.header {
+    color: deepskyblue;
+  margin: 15px 20px;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+form {
+  margin: 10px 10px 30px 10px;
+}
+form ::-webkit-input-placeholder {
+  color: #CCC;
+  font-weight: 300;
+}
+
+input[type="text"], textarea {
+  margin: 5px 10px;
+  outline: none;
+  color: deepskyblue;
+  border: 3px solid deeppink;
+  background: transparent;
+  padding: 10px;
+}
+
+textarea {
+  resize: none;
+  width: 85%;
+}
+
+input[type="text"] {
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+.comnt-btn {
+  font-weight: 400;
+  float: right;
+  margin: 12px 0 0 10px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  color: deeppink;
+  font-size: 15px;
+  border: 3px solid deepskyblue;
+  background: transparent;
+  padding: 12px 20px 12px 20px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.comnt-btn:hover {
+  background: deepskyblue;
+}
+
+.comments{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 3px solid deeppink;
+    border-bottom-color: transparent;
+}
+
+.copy p {
+    float: right;
+  font-size: 13px;
+  margin-bottom: 50px;
+  background: deeppink;
+}
+
+.footer{
+    bottom: 5px;
+}

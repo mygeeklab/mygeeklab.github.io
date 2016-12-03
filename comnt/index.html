@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Comnt</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body>
+
+      <div class="header">
+          <img src="images/chat.png"><h3>Comnt-Box</h3></img>
+      </div>
+
+  <div class="container">
+    <div class="comment-box">
+      <div class="comment-form">
+        <div class="header">Your Comment</div>
+        <form action="#" onsubmit="event.preventDefault(); postComment()">
+          <div>
+            <input type="text" id="name" placeholder="Name" />
+          </div>
+          <div>
+            <textarea id="comment" rows="3" cols="30" placeholder="Comment"></textarea>
+          </div>
+          <button type="submit" class="pull-right comnt-btn">Comment</button>
+        </form>
+      </div>
+      <div class="comments">
+        <h4 class="header">Comments</h4>
+        <div id="comments"></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+        <p>Vector Icon Credit To: <a href="http://www.flaticon.com/free-icon/chat_134914#term=comment&page=1&position=8">Flaticon.com</a></p>
+    </div>
+</body>
+  <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
