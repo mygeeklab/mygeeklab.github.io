@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Molle:400i|Nova+Script|Pacifico');
+
+body{
+    background-image: url("");
+    padding: 70px;
+}
+
+.navbar{
+    padding-bottom: 10px;
+    background: #000000;
+    opacity: 0.9;
+}
+
+button.btn-next{
+    font-size: 24px;
+    margin: 40px;
+    margin-left: 47%;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: 3px dotted #000000;
+    border-radius: 50%;
+    z-index: -200;
+}
+
+button.btn-next:hover{
+    font-size: 32px;
+    border-color: deeppink;
+    color: red;
+}
+
+a.navbar-brand p.brand-text{
+    font-family: 'Nova Script', cursive;
+    font-size: 32px;
+    color: deepskyblue;
+}
+
+a.navbar-brand p.brand-text:hover{
+    border-bottom: 3px dashed deeppink;
+}
+
+hr.divide{
+    height: 2px;
+    background-color: deepskyblue;
+}
+
+.features h1{
+    padding-top: 90px;
+}
+
+button.btn-nav{
+    margin: 10px;
+    color: deepskyblue;
+    background: transparent;
+}
+
+button.btn-nav:hover{
+    border: 2px solid deeppink;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.features{
+    padding: 90px;
+}
+
+.features h1{
+    color: lightslategrey;
+    font-family: 'Molle', cursive;
+    text-align: center;
+}
+
+.features h2{
+    color: deepskyblue;
+    font-family: 'Molle', cursive;
+    text-align: center;
+}
+
+p{
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    color: slategray;
+}
+
+.row .panel{
+    background-color: transparent;
+    border: 0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+hr.small{
+    width: 70px;
+    height: 5px;
+    background-color: #fa00ee;
+}
+
+.credits h1{
+    color: lightslategrey;
+    font-family: 'Molle', cursive;
+    text-align: center;
+}
