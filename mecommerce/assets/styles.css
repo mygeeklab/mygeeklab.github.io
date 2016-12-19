@@ -1,0 +1,121 @@
+/*Index CSS*/
+
+/*Import Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa|Ubuntu');
+
+/*Header*/
+.header{
+    height: 700px;
+    background-image: url('../assets/header.jpg');
+}
+
+button.btn-nav{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+button.btn-nav:hover{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 30px; 
+}
+
+.center{
+    padding: 5px;
+    margin: 0;
+    position: relative;
+    top: 55%;
+    left: 35%;
+}
+
+.mobi-center{
+    padding: 9px;
+    margin: 0;
+    position: relative;
+    top: 0px;
+    left: 10%;
+}
+
+.intro{
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);   
+}
+
+.intro h2{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+
+.intro p{
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+span.hint{
+    color: #000;
+    font-style: italic;
+}
+
+button.btn-cta{
+    font-family: 'Verdane';
+    font-size: 24px;
+}
+/*End Header*/
+
+/*Main Content*/
+.container{
+    margin:50px;
+    text-align: center;
+    color: #000;
+}
+
+.container h2{
+    font-size: 36px;
+    font-family: 'Aref Ruqaa', serif;
+}
+
+.container h3{
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 30px;
+    color: rgba(0, 0, 180, .7);
+}
+
+.container p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    color: rgba(0, 0, 0, .7);
+}
+
+.row{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.row .col-lg-4{
+    padding: 10px;
+}
+/*End Main Content*/
+
+/*Call To Action Footer*/
+.cta{
+    padding: 30px;
+    background-color: rgba(0, 0, 0, .9);
+    text-align: center;
+}
+
+.cta h3{
+    color: #fff;
+    font-family: 'Verdana';
+    font-size: 32px;
+}
+/*End Call To Action*/
+
+/*End Index CSS*/
