@@ -1,0 +1,204 @@
+/* Normal Styling */
+div.window{
+    width: 60%;
+    height: 30%;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);  
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.display-image{
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);  
+}
+
+.display-image img{
+    background-color: #fff;
+}
+
+.intro{
+    font-family: 'Verdana';
+    font-size: 32px;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);  
+}
+
+.specs{
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);  
+}
+
+span i.work-place-hint{
+    color: deepskyblue;
+    font-family: 'Arial', cursive;
+    font-size: 24px;
+}
+
+.row{
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 52%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);  
+    font-size: 32px;
+}
+
+.row .btn{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+/* Large Laptop Optimization */
+@media screen and (max-width: 1440px){
+    body{
+        background-image: url('../assets/laptop_L.jpg');
+    }
+
+    div.window{
+        width: 80%;
+    }
+
+    .intro{
+        font-size: 40px;
+        top: 37%;
+    }
+
+    .specs{
+        font-size: 35px;
+        top: 54%;
+    }
+
+    .row{
+        margin-left: 0px;
+        margin-right: 0px;
+        left: 52%;
+        font-size: 44px;
+    }
+}
+
+/* Mobile Optimization */
+
+/* Optimization Based on iPad Screen Size */
+@media screen and (max-width: 768px){
+    body{
+        background-image: url('../assets/background.jpg');
+    }
+
+    div.window{
+        width: 80%;
+    }
+
+    .intro{
+        font-size: 27px;
+        top: 42%;
+    }
+
+    .specs{
+        font-size: 24px;
+        top: 54%;
+    }
+
+    .row{
+        margin-left: 0px;
+        margin-right: 0px;
+        left: 54%;
+        font-size: 32px;
+    }
+}
+
+ /* Optimization Based on Nexus 5X, 6P And iPhone 6 plus */
+@media screen and (max-width: 488px){
+    div.window{
+        width: 95%;
+    }
+
+    .intro{
+        font-size: 27px;
+        top: 42%;
+    }
+
+    .specs{
+        font-size: 22px;
+        top: 54%;
+    }
+
+    .row{
+        margin-left: 0px;
+        margin-right: 0px;
+        left: 54%;
+        font-size: 16px;
+    }
+}
+
+/* Optimization Based on Galaxy S5 and iPhone 6 */
+@media screen and (max-width: 378px){
+    div.window{
+        width: 95%;
+    }
+
+    .intro{
+        font-size: 27px;
+        top: 42%;
+    }
+
+    .specs{
+        font-size: 19px;
+        top: 54%;
+    }
+
+    .row{
+        margin-left: 0px;
+        margin-right: 0px;
+        left: 54%;
+        font-size: 16px;
+    }
+}
+
+/* Optimization Based on iPhone 5 */
+@media screen and (max-width: 336px){
+    div.window{
+        width: 95%;
+    }
+
+    .intro{
+        font-size: 27px;
+        top: 45%;
+    }
+
+    .specs{
+        font-size: 18px;
+        top: 60%;
+    }
+
+    .row{
+        margin-left: 0px;
+        margin-right: 0px;
+        top: 85%;
+        left: 54%;
+        font-size: 14px;
+    }
+}
+
+/*Optimization Ends*/
