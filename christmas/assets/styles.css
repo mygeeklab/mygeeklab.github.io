@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa|Kumar+One');
+
+div.header{
+    height: 800px;
+    width: 100%;
+    background-image: url('../assets/head.jpg');
+}
+
+a.navbar-brand {
+    font-family: 'Kumar One', serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, .8);
+}
+
+.center{
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro{
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro h1{
+    font-family:'Kumar One', serif ;
+    font-size: 40px;
+    color: #ff0000;
+}
+
+.intro p{
+    font-family:'Aref Ruqaa', cursive ;
+    font-size: 24px;
+}
+
+.container{
+    text-align: center;
+}
+
+.container h2{
+    font-family:'Kumar One', serif ;
+    color: #ff0000;
+}
+
+.container h3, .declaration h4{
+    font-family:'Aref Ruqaa', cursive ;
+    color: #fff;
+}
+
+.row{
+    padding: 30px;
+}
+
+.row .col-lg-4{
+    padding: 20px;
+}
+
+.declaration{
+    text-align: center;
+}
+
+div.footer{
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, .8);
+}
