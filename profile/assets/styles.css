@@ -84,19 +84,20 @@ span i.work-place-hint{
 
     .intro{
         font-size: 40px;
-        top: 37%;
+        top: 42%;
     }
 
     .specs{
         font-size: 35px;
-        top: 54%;
+        top: 62%;
     }
 
     .row{
         margin-left: 0px;
         margin-right: 0px;
+        top: 85%;
         left: 52%;
-        font-size: 44px;
+        font-size: 30px;
     }
 }
 
@@ -126,7 +127,7 @@ span i.work-place-hint{
         margin-left: 0px;
         margin-right: 0px;
         left: 54%;
-        font-size: 32px;
+        font-size: 24px;
     }
 }
 
